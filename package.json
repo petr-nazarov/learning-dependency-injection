@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "tsc src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
