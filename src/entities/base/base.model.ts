@@ -5,11 +5,11 @@ export class BaseModel {
 
 
   /// think of this as method of mongoose
-  async create(data:any ) {
+  create(data:any ) {
     console.log('BaseModel.create()');
   }
 
-  async update(id: string, data:any ) {
+  update(id: string, data:any ) {
     console.log('BaseModel.update()');
   }
 }
