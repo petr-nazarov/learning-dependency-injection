@@ -1,20 +1,17 @@
 import { BaseService } from "./base.service";
-import { TSome } from "./base.types";
 
-class SomeService extends BaseService {
-}
 
-export class BaseController{
+export abstract class BaseController<TDto>{
   
-  service: SomeService;
+  service: BaseService<TDto>;
 
-  constructor(_service: SomeService){
+  constructor(_service: BaseService<TDto>){
     this.service = _service;
   }
-  create(entity: TSome){
+  create(entity: TDto){
     this.service.create(entity);
   }
-  update(id:string, entity: TSome){
+  update(id:string, entity: TDto){
     this.service.update(id, entity);
   }
 }

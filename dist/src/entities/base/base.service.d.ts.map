@@ -1,0 +1,1 @@
+{"version":3,"file":"base.service.d.ts","sourceRoot":"","sources":["../../../../src/entities/base/base.service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,cAAc,CAAC;AAGzC,8BAAuB,WAAW,CAAC,IAAI;IAErC,KAAK,EAAE,SAAS,CAAC;gBACL,MAAM,EAAE,SAAS;IAG7B,MAAM,CAAC,MAAM,EAAE,IAAI;IAGnB,MAAM,CAAC,EAAE,EAAC,MAAM,EAAE,MAAM,EAAE,IAAI;CAG/B"}

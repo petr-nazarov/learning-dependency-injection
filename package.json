@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "tsc -p tsconfig.json index.ts",
+    "build": "tsc -p tsconfig.json ",
+    "build-run": "yarn build && node dist/index.js",
+    "inittt": "tsc --init"
   },
   "dependencies": {
     "typescript": "^4.6.4"

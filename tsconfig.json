@@ -21,16 +21,13 @@
     "inlineSources": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "preserveWatchOutput": true,
-    "strictPropertyInitialization": false,
-    "lib": ["dom", "dom.iterable", "esnext"],
+   
     "allowJs": true,
-    "strict": false,
-    "noEmit": true,
-    "incremental": true,
-    "resolveJsonModule": true,
-    "jsx": "preserve"
+
   },
+  "files": [
+    "index.ts"
+  ],
   "include": ["src/**/*.ts", "next-env.d.ts"],
   "exclude": ["node_modules"]
 

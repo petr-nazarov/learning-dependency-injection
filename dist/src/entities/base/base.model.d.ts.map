@@ -1,0 +1,1 @@
+{"version":3,"file":"base.model.d.ts","sourceRoot":"","sources":["../../../../src/entities/base/base.model.ts"],"names":[],"mappings":"AAAA,cAAM,UAAU;IACd,cAAc,CAAC,EAAE,MAAM,CAAU;IAGjC,MAAM,CAAC,IAAI,KAAA;IAIX,MAAM,CAAC,EAAE,EAAE,MAAM,EAAE,IAAI,EAAC,GAAG;CAG5B;AAGD,8BAAsB,SAAU,SAAQ,UAAU;IAChD,EAAE,EAAE,MAAM,CAAC;CACZ"}

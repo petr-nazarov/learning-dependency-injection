@@ -1,17 +1,16 @@
 import { BaseModel } from "./base.model";
-import { TSome } from "./base.types";
 
 
-export class BaseService{
+export  abstract class BaseService<TDto>{
 
   model: BaseModel;
   constructor(_model: BaseModel){
     this.model = _model;
   }
-  create(entity: TSome){
+  create(entity: TDto){
     this.model.create(entity);
   }
-  update(id:string, entity: TSome){
+  update(id:string, entity: TDto){
     this.model.update(id, entity);
   }
 }

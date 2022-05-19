@@ -1,23 +1,12 @@
-import { TSome, BaseService } from "../base";
+import {  BaseService } from "../base";
+import { PostDto } from "./post.dto";
 import {PostModel} from  './post.model';
 
 
-export class PostService extends BaseService{
+export class PostService extends BaseService<PostDto>{
   constructor(){
     super( new PostModel());
   }
-
-
-  // functionToCheckPermissions(){
-  //   console.log('I am checking post permissions')
-  // }
-
-
-
-  // create(entity :TSome){
-  //   this.functionToCheckPermissions();
-  //   super.create(entity)
-  // }
 }
 
 //create

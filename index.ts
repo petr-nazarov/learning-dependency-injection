@@ -1,15 +1,10 @@
+import { UserController } from "./src/entities/user/user.controller";
 import { PostController } from "./src/entities/post/post.controller";
-
-let httpPath = '/api/v1/';
-let method = 'POST';
-let body = {
-  title : 'My new post'
-}
 
 
 // --------- //
 const postController = new PostController()
+const userController = new UserController()
 
-if (httpPath === '/post' && method === 'POST'){
-  postController.create(body)
-}
+  postController.create({title: 'Hello'})
+  userController.create({username: 'Jon'})
