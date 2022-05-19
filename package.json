@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tsc src/index.ts"
+    "build": "tsc index.ts"
   },
   "dependencies": {
     "typescript": "^4.6.4"

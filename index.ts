@@ -1,4 +1,4 @@
-import { PostController } from "./entities/post/post.controller";
+import { PostController } from "./src/entities/post/post.controller";
 
 let httpPath = '/api/v1/';
 let method = 'POST';
